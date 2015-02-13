@@ -10,6 +10,6 @@ namespace Quiron.LojaVirtual.Dominio.Repositorio
 {
     public class EfDbContext: DbContext
     {
-        //public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
     }
 }
