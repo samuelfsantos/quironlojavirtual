@@ -14,7 +14,7 @@ namespace Quiron.LojaVirtual.Web.HtmlHelpers
         {
             StringBuilder resultado = new StringBuilder();
 
-            for (int i = 0; i < paginacao.TotalPagina; i++)
+            for (int i = 0; i <= paginacao.TotalPagina; i++)
             {
                 TagBuilder tag = new TagBuilder("a");
                 // Adiciona o atributo na tag
